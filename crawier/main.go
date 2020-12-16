@@ -11,7 +11,7 @@ func main() {
 	//	ParserFunc: parser.ParseCityList,
 	//})
 
-	contents, err := fetcher.Fetch("http://album.zhenai.com/u/1976352655")
+	contents, err := fetcher.Fetch("https://album.zhenai.com/u/1210022635")
 	if err != nil {
 		panic(err)
 	}
